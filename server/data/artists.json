@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Radiohead",
+    "mbid": null
+  },
+  {
+    "id": 2,
+    "name": "Kendrick Lamar",
+    "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
+  },
+  {
+    "id": 3,
+    "name": "Tame Impala",
+    "mbid": null
+  }
+]

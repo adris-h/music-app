@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "album_id": 1,
+    "rating_id": 1,
+    "body": "Only a few songs stand out to me so far. Good, but I don't get the hype yet.",
+    "created_at": "2026-01-10T18:22:00Z"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "album_id": 1,
+    "rating_id": 2,
+    "body": "Got better every time I came back to it. At first I only cared about the big songs, now the quiet middle of the album is my favorite part.",
+    "created_at": "2026-06-02T20:07:00Z"
+  },
+  {
+    "id": 3,
+    "user_id": 2,
+    "album_id": 2,
+    "rating_id": 3,
+    "body": "Dense and rewarding. Every listen I catch another line or a new sound in the background.",
+    "created_at": "2026-07-19T13:45:00Z"
+  }
+]

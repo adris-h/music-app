@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "track_id": 1,
+    "played_at": "2026-08-14T19:32:10Z",
+    "ms_played": 383000,
+    "source": "apple_export",
+    "time_precision": "exact"
+  },
+  {
+    "id": 2,
+    "user_id": 1,
+    "track_id": 3,
+    "played_at": "2026-08-14T19:38:40Z",
+    "ms_played": 216000,
+    "source": "apple_export",
+    "time_precision": "exact"
+  },
+  {
+    "id": 3,
+    "user_id": 2,
+    "track_id": 2,
+    "played_at": "2026-08-15T08:05:00Z",
+    "ms_played": 219000,
+    "source": "lastfm",
+    "time_precision": "exact"
+  }
+]

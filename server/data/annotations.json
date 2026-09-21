@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "track_id": 1,
+    "timestamp_ms": 160000,
+    "lyric_line_ref": null,
+    "body": "this is where the song stops being good lol",
+    "created_at": "2026-06-05T21:00:00Z"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "track_id": 2,
+    "timestamp_ms": 95000,
+    "lyric_line_ref": null,
+    "body": "the bass and drums hit harder here than anywhere else on the track.",
+    "created_at": "2026-07-21T12:30:00Z"
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "track_id": 3,
+    "timestamp_ms": 45000,
+    "lyric_line_ref": null,
+    "body": "that bassline is the whole song for me",
+    "created_at": "2026-08-02T18:15:00Z"
+  }
+]

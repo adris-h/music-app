@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "source": "apple_export",
+    "status": "done",
+    "rows_total": 48210,
+    "rows_done": 48210
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "source": "lastfm",
+    "status": "processing",
+    "rows_total": 12000,
+    "rows_done": 4500
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "source": "apple_export",
+    "status": "failed",
+    "rows_total": 800,
+    "rows_done": 120
+  }
+]

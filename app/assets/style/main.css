@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+body{
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    background: #0E0E0E;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#__nuxt{
+    width: 100%;
+    height: 100%;
+}
+
+@theme {
+    --color-template: #1C1C1C;
+    --color-primary: #FF003C;
+
+}
+
+
+.nav-link{
+    @apply hover:opacity-75 hover:bg-template px-3 py-1 rounded-md active:scale-90 duration-200;
+}
+
+.nav-link.active{
+    @apply bg-primary px-3 py-1 rounded-md;
+}
