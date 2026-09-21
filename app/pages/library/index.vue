@@ -15,11 +15,15 @@
       >
 
         <NuxtLink :to="`library/albums/${album.id}`" class="flex w-full flex-col">
-          <div class="w-full aspect-square flex items-center justify-center bg-template mb-5"></div>
-          <div class="flex items-center justify-between w-full ">
+          <div 
+            class="w-full aspect-square flex items-center justify-center  mb-5 bg-cover bg-center"
+            :style="{ backgroundImage: album.coverUrl ? `url(${album.coverUrl})` : '' }"
+          ></div>
+          <div class="flex items-center justify-between w-full">
             <div class="flex flex-col">
               <NuxtLink @click.stop class="hover:underline text-base" > {{ album.title }} </NuxtLink>
               <NuxtLink @click.stop :to="`https://musicbrainz.org/artist/${album.artist.mbid}`" class="hover:underline text-sm"> {{ album.artist.name }} </NuxtLink>
+             <p>{{ album.releaseDate }}</p>
             </div>
           </div>
 

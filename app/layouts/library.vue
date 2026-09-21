@@ -3,7 +3,7 @@
     <LibraryNavBar />
     <div class="w-full h-full flex flex-col items-center justify-center ">
       <NavBar />
-      <main class="content w-full h-full">
+      <main class="content w-full h-full overflow-scroll">
         <slot />
       </main>
     </div>
