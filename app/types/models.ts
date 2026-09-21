@@ -2,6 +2,7 @@ export interface Artist {
     id: number
     name: string
     mbid: string | null
+    image_url: string | null
 }
 
 export interface Album {
@@ -15,7 +16,10 @@ export interface Album {
 }
 
 export interface AlbumWithArtist extends Album {
-    artist: Artist
+    artist?: Artist
 }
 
 
+export interface ArtistWithAlbums extends Artist {
+    albums?: Album[]
+}

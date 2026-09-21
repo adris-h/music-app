@@ -6,24 +6,32 @@
 </script>
 
 <template>
-  <div class="w-full h-full px-8 pb-8 flex justify-center pt-8">
+  <div class="w-full h-full px-8 pb-8 flex justify-start pt-8">
     <div class="flex flex-wrap justify-start items-start gap-4 max-w-full">
       <div
         v-for="album in albums"
         :key="album.id"
         class="w-50"
       >
-
         <NuxtLink :to="`library/albums/${album.id}`" class="flex w-full flex-col">
           <div 
             class="w-full aspect-square flex items-center justify-center  mb-5 bg-cover bg-center"
-            :style="{ backgroundImage: album.coverUrl ? `url(${album.coverUrl})` : '' }"
+            :style="{ backgroundImage: album.cover_url ? `url(${album.cover_url})` : '' }"
           ></div>
           <div class="flex items-center justify-between w-full">
             <div class="flex flex-col">
-              <NuxtLink @click.stop class="hover:underline text-base" > {{ album.title }} </NuxtLink>
-              <NuxtLink @click.stop :to="`https://musicbrainz.org/artist/${album.artist.mbid}`" class="hover:underline text-sm"> {{ album.artist.name }} </NuxtLink>
-             <p>{{ album.releaseDate }}</p>
+              <NuxtLink @click.stop class="text-2xl font-bold font-h1">{{ album.title }}</NuxtLink>
+              <NuxtLink
+                  v-if="album.artist?.mbid"
+                  @click.stop
+                  :to="`library/artists/${album.artist.id}`"
+                  class="hover:underline text-lg"
+              >
+                {{ album.artist.name }}
+              </NuxtLink>
+
+              <p class="text-[.8rem]">{{ album.release_date.split('-')[0] }}</p>
+
             </div>
           </div>
 

@@ -12,5 +12,3 @@ export default defineEventHandler((event) => {
 
     return { ...album, artist: artists.find(a => a.id === album.artist_id) }
 })
-
-//import music from "https://musicbrainz.org/ws/2/"

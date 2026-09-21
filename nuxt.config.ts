@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   // enable Nuxt devtools
   devtools: { enabled: true },
   // global CSS
-  css: ['./app/assets/style/main.css'],
+  css: ['~/assets/style/main.css'],
   // PostCSS plugins configuration (preferred over postcss.config.cjs in Nuxt)
   postcss: {
     plugins: {

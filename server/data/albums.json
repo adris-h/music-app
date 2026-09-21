@@ -2,55 +2,9 @@
   {
     "id": 1,
     "artist_id": 1,
-    "title": "OK Computer",
-    "release_date": "1997-05-21",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
-  },
-  {
-    "id": 2,
-    "artist_id": 2,
-    "title": "To Pimp a Butterfly",
-    "release_date": "2015-03-15",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
-  },
-  {
-    "id": 3,
-    "artist_id": 3,
-    "title": "Currents",
-    "release_date": "2015-07-17",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
-  },
-  {
-    "id": 4,
-    "artist_id": 1,
-    "title": "Kid A",
-    "release_date": "2000-10-02",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
-  },
-  {
-    "id": 5,
-    "artist_id": 2,
-    "title": "DAMN.",
-    "release_date": "2017-04-14",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
-  },
-  {
-    "id": 6,
-    "artist_id": 3,
-    "title": "Lonerism",
-    "release_date": "2012-10-05",
-    "cover_url": null,
-    "mbid": null,
-    "apple_music_id": null
+    "title": "Pylon",
+    "release_date": "2026-09-18",
+    "cover_url": "https://coverartarchive.org/release-group/074aa5b0-712e-4d6c-8d14-8aedc43e84fd/front",
+    "mbid": "074aa5b0-712e-4d6c-8d14-8aedc43e84fd"
   }
 ]

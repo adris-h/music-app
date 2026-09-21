@@ -1,17 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Radiohead",
-    "mbid": null
-  },
-  {
-    "id": 2,
-    "name": "Kendrick Lamar",
-    "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077"
-  },
-  {
-    "id": 3,
-    "name": "Tame Impala",
-    "mbid": null
+    "name": "Beabadoobee",
+    "mbid": "f3e1b8c0-4d5a-4f9e-9c6e-1b2f3e4d5a6b",
+    "image_url": "https://lastfm-img.freetls.fastly.net/i/u/770x0/aff345c9135f9209a1d1c362093bfcb4.jpg#aff345c9135f9209a1d1c362093bfcb4"
   }
 ]
