@@ -5,6 +5,92 @@
     "title": "Pylon",
     "release_date": "2026-09-18",
     "cover_url": "https://coverartarchive.org/release-group/074aa5b0-712e-4d6c-8d14-8aedc43e84fd/front",
-    "mbid": "074aa5b0-712e-4d6c-8d14-8aedc43e84fd"
+    "mbid": "074aa5b0-712e-4d6c-8d14-8aedc43e84fd",
+    "tracks": [
+      {
+        "position": 1,
+        "title": "Pylon",
+        "duration_ms": 215256,
+        "mbid": "41d84bb6-75d2-4684-85a0-f26e53a8f33e"
+      },
+      {
+        "position": 2,
+        "title": "Sun Has Set",
+        "duration_ms": 141804,
+        "mbid": "6620511e-390d-45b2-a541-ac79f173b8b8"
+      },
+      {
+        "position": 3,
+        "title": "Estranged",
+        "duration_ms": 178282,
+        "mbid": "e6bf9f18-074b-4c3a-9063-1b9589f5b19f"
+      },
+      {
+        "position": 4,
+        "title": "Switchblade",
+        "duration_ms": 181927,
+        "mbid": "feb6f481-81de-433e-a3f0-594d8a559cca"
+      },
+      {
+        "position": 5,
+        "title": "Write Me a Letter",
+        "duration_ms": 194103,
+        "mbid": "d11359a2-f6dd-4300-bf56-8df5f61a4017"
+      },
+      {
+        "position": 6,
+        "title": "It’s Alright",
+        "duration_ms": 171309,
+        "mbid": "5f359053-517a-42b2-8947-eda40dc90603"
+      },
+      {
+        "position": 7,
+        "title": "In Motion",
+        "duration_ms": 187992,
+        "mbid": "7a92bd9d-9d2e-4e29-aa31-1ef7fd0852b6"
+      },
+      {
+        "position": 8,
+        "title": "Memories",
+        "duration_ms": 168734,
+        "mbid": "84ef6f85-5cf6-4b9c-9ab6-ce33ab5516f2"
+      },
+      {
+        "position": 9,
+        "title": "Nothing to Prove",
+        "duration_ms": 144316,
+        "mbid": "37a47e1b-ba44-401e-9c94-e01d50c46e4b"
+      },
+      {
+        "position": 10,
+        "title": "Radio",
+        "duration_ms": 160231,
+        "mbid": "a24b0e6c-e837-4678-8308-fbe34ca5d2f7"
+      },
+      {
+        "position": 11,
+        "title": "Powerlines",
+        "duration_ms": 178391,
+        "mbid": "27728266-1921-466f-9dee-e688de400fba"
+      },
+      {
+        "position": 12,
+        "title": "Spark",
+        "duration_ms": 167800,
+        "mbid": "b61e9d52-3e5d-4002-8731-313a2efba571"
+      },
+      {
+        "position": 13,
+        "title": "Despite That",
+        "duration_ms": 89679,
+        "mbid": "19e23344-a715-4d59-9b14-2d54d80f149b"
+      },
+      {
+        "position": 14,
+        "title": "Satellite",
+        "duration_ms": 285425,
+        "mbid": "5baafdf7-6631-4277-88db-7869f6cc8bc6"
+      }
+    ]
   }
 ]

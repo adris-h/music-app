@@ -8,7 +8,7 @@ body{
     background: #0E0E0E;
 
     /* background: linear-gradient(90deg,rgba(255, 0, 60, 1) 0%, rgba(255, 97, 126, 1) 21%, rgba(255, 0, 60, 1) 44%, rgba(255, 97, 126, 1) 76%, rgba(255, 0, 60, 1) 100%); */
-    background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(23, 22, 22) 21%, rgb(14, 14, 14) 44%, rgb(25, 24, 24) 76%, rgb(14, 14, 14) 100%);
+    /*background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(23, 22, 22) 21%, rgb(14, 14, 14) 44%, rgb(25, 24, 24) 76%, rgb(14, 14, 14) 100%);*/
     box-sizing: border-box;
     overflow: hidden;
     font-family: "area-normal-light", sans-serif;
@@ -23,8 +23,8 @@ body{
 }
 
 h1{
-    font-family: "marigny", sans-serif;
     font-weight: 700;
+    /*font-family: "marigny", sans-serif;*/
     font-style: normal;
 }
 
@@ -36,7 +36,7 @@ h1{
 @theme {
     --color-template: #1C1C1C;
     --color-primary: #FF003C;
-    --font-h1: "marigny", sans-serif;
+    --font-h1: "area-normal-light", sans-serif;
 }
 
 
