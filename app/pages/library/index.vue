@@ -25,7 +25,7 @@
                   v-if="album.artist?.mbid"
                   @click.stop
                   :to="`library/artists/${album.artist.id}`"
-                  class="hover:underline text-lg"
+                  class="text-lg link"
               >
                 {{ album.artist.name }}
               </NuxtLink>

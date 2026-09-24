@@ -1,8 +1,20 @@
 <script setup lang="ts">
+import {getColorHash} from "~/composables/getColorHash";
+
 definePageMeta({ layout: 'library' })
 const route = useRoute()
 const { data: album, error: albumError } = await useAlbum(() => route.params.id as string)
 const { data: tracks, pending, error } = await useAlbumTracks(() => album.value?.mbid)
+
+import { ref, onMounted } from 'vue';
+
+const colorHash = ref<Record<string, number>>({});
+
+onMounted(async () => {
+  colorHash.value = await getColorHash(album.value?.cover_url || '');
+  console.log('Processed colors:', colorHash.value);
+});
+
 watch(tracks, (newTracks) => {
   if (album.value && newTracks) {
     album.value.tracks = newTracks

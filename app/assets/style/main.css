@@ -11,9 +11,6 @@ body{
     /*background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(23, 22, 22) 21%, rgb(14, 14, 14) 44%, rgb(25, 24, 24) 76%, rgb(14, 14, 14) 100%);*/
     box-sizing: border-box;
     overflow: hidden;
-    font-family: "area-normal-light", sans-serif;
-    font-weight: 300;
-    font-style: normal;
 }
 
 
@@ -36,14 +33,25 @@ h1{
 @theme {
     --color-template: #1C1C1C;
     --color-primary: #FF003C;
-    --font-h1: "area-normal-light", sans-serif;
+    --color-nav-primary: #6E6E6E;
+    --color-nav-selected: #E8E6E5;
+    --font-primary: "brillante-vf",sans-serif;
+}
+
+@font-face {
+    font-family: 'Brillante';
+    src: url('../fonts/brillante.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 
-.nav-link{
-    @apply hover:opacity-75 hover:bg-template px-3 py-1 rounded-md active:scale-90 duration-200;
+.link{
+    font-variation-settings: 'wdth' 125, 'wght' 300;
+    @apply hover:opacity-75 text-nav-primary px-3 py-1 rounded-md active:scale-90 duration-200 font-primary ;
 }
 
-.nav-link.active{
-    @apply bg-primary px-3 py-1 rounded-md;
+.link.active{
+    font-variation-settings: 'wdth' 125, 'wght' 400;
+    @apply text-nav-selected px-3 py-1 rounded-md font-primary;
 }
