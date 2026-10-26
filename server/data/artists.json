@@ -1,8 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Beabadoobee",
-    "mbid": "f3e1b8c0-4d5a-4f9e-9c6e-1b2f3e4d5a6b",
-    "image_url": "https://lastfm-img.freetls.fastly.net/i/u/770x0/aff345c9135f9209a1d1c362093bfcb4.jpg#aff345c9135f9209a1d1c362093bfcb4"
+    "name": "Slayyyter",
+    "mbid": "9058d01e-8afc-47a4-8664-621fb5f159c0",
+    "image_url": "",
+    "legalName": "Garner, Catherine Grace",
+    "country": "US"
+  },
+  {
+    "id": 2,
+    "name": "ILLIT",
+    "mbid": "6b128dd7-e998-4edb-a4f5-400fef190445",
+    "image_url": "",
+    "legalName": "",
+    "country": "KR"
   }
 ]

@@ -2,95 +2,121 @@
   {
     "id": 1,
     "artist_id": 1,
-    "title": "Pylon",
-    "release_date": "2026-09-18",
-    "cover_url": "https://coverartarchive.org/release-group/074aa5b0-712e-4d6c-8d14-8aedc43e84fd/front",
-    "mbid": "074aa5b0-712e-4d6c-8d14-8aedc43e84fd",
+    "title": "WOR$T GIRL IN AMERICA",
+    "release_date": "2026-03-27",
+    "cover_url": "https://coverartarchive.org/release-group/deca614f-7b89-4546-b77e-2dbeccfe0c75/front-500",
+    "mbid": "deca614f-7b89-4546-b77e-2dbeccfe0c75",
     "tracks": [
       {
         "position": 1,
-        "title": "Pylon",
-        "duration_ms": 215256,
-        "mbid": "41d84bb6-75d2-4684-85a0-f26e53a8f33e"
+        "title": "DANCE…",
+        "duration_ms": 287053,
+        "mbid": "a3289b2a-833a-4ee7-bc59-1abe1f946917"
       },
       {
         "position": 2,
-        "title": "Sun Has Set",
-        "duration_ms": 141804,
-        "mbid": "6620511e-390d-45b2-a541-ac79f173b8b8"
+        "title": "BEAT UP CHANEL$",
+        "duration_ms": 198933,
+        "mbid": "e5a69487-db24-45d9-a2b3-7b9fdb5e845e"
       },
       {
         "position": 3,
-        "title": "Estranged",
-        "duration_ms": 178282,
-        "mbid": "e6bf9f18-074b-4c3a-9063-1b9589f5b19f"
+        "title": "CANNIBALISM!",
+        "duration_ms": 167160,
+        "mbid": "cad76133-40b7-42a3-95e6-cb4fe8a43c27"
       },
       {
         "position": 4,
-        "title": "Switchblade",
-        "duration_ms": 181927,
-        "mbid": "feb6f481-81de-433e-a3f0-594d8a559cca"
+        "title": "OLD TECHNOLOGY",
+        "duration_ms": 159200,
+        "mbid": "092de074-146a-43e3-bd42-c587e81005ba"
       },
       {
         "position": 5,
-        "title": "Write Me a Letter",
-        "duration_ms": 194103,
-        "mbid": "d11359a2-f6dd-4300-bf56-8df5f61a4017"
+        "title": "CRANK",
+        "duration_ms": 175733,
+        "mbid": "898d3f41-a0c3-470e-95ac-b3efa0fb8de2"
       },
       {
         "position": 6,
-        "title": "It’s Alright",
-        "duration_ms": 171309,
-        "mbid": "5f359053-517a-42b2-8947-eda40dc90603"
+        "title": "GAS STATION",
+        "duration_ms": 218813,
+        "mbid": "dc47f4f9-7a14-4c11-8f4d-c555bceaa484"
       },
       {
         "position": 7,
-        "title": "In Motion",
-        "duration_ms": 187992,
-        "mbid": "7a92bd9d-9d2e-4e29-aa31-1ef7fd0852b6"
+        "title": "YES GODDD",
+        "duration_ms": 159680,
+        "mbid": "7eb1ec52-683a-4cae-8d8a-850a1b5683b8"
       },
       {
         "position": 8,
-        "title": "Memories",
-        "duration_ms": 168734,
-        "mbid": "84ef6f85-5cf6-4b9c-9ab6-ce33ab5516f2"
+        "title": "UNKNOWN LOVERZ",
+        "duration_ms": 199333,
+        "mbid": "b1e63610-866a-4963-8799-8b86d7a25dd0"
       },
       {
         "position": 9,
-        "title": "Nothing to Prove",
-        "duration_ms": 144316,
-        "mbid": "37a47e1b-ba44-401e-9c94-e01d50c46e4b"
+        "title": "OLD FLING$",
+        "duration_ms": 217200,
+        "mbid": "f814f2ce-78cb-49cf-be07-d5d24acbbe56"
       },
       {
         "position": 10,
-        "title": "Radio",
-        "duration_ms": 160231,
-        "mbid": "a24b0e6c-e837-4678-8308-fbe34ca5d2f7"
+        "title": "I’M ACTUALLY KINDA FAMOUS",
+        "duration_ms": 156346,
+        "mbid": "5fff70a4-994c-41fe-8857-f319ff59a442"
       },
       {
         "position": 11,
-        "title": "Powerlines",
-        "duration_ms": 178391,
-        "mbid": "27728266-1921-466f-9dee-e688de400fba"
+        "title": "$T. LOSER",
+        "duration_ms": 215493,
+        "mbid": "17c4a5c7-4cca-4081-b1a9-7105b274f324"
       },
       {
         "position": 12,
-        "title": "Spark",
-        "duration_ms": 167800,
-        "mbid": "b61e9d52-3e5d-4002-8731-313a2efba571"
+        "title": "WHAT IS IT LIKE, TO BE LIKED?",
+        "duration_ms": 138360,
+        "mbid": "88c5c8b0-8166-4f2a-b5b6-1b336f6c8707"
       },
       {
         "position": 13,
-        "title": "Despite That",
-        "duration_ms": 89679,
-        "mbid": "19e23344-a715-4d59-9b14-2d54d80f149b"
+        "title": "*PRAYER*",
+        "duration_ms": 37146,
+        "mbid": "71661f86-8e61-423f-a3e2-1be6e15e92b7"
       },
       {
         "position": 14,
-        "title": "Satellite",
-        "duration_ms": 285425,
-        "mbid": "5baafdf7-6631-4277-88db-7869f6cc8bc6"
+        "title": "BRITTANY MURPHY.",
+        "duration_ms": 224333,
+        "mbid": "0126bedf-8d0f-442f-8f8b-52b30d95f43c"
       }
-    ]
+    ],
+    "type": "Album",
+    "secondary_types": []
+  },
+  {
+    "id": 2,
+    "artist_id": 2,
+    "title": "NOT CUTE ANYMORE",
+    "release_date": "2025-11-24",
+    "cover_url": "https://coverartarchive.org/release-group/8d017e49-618c-4011-8600-54bf191dea63/front-500",
+    "mbid": "8d017e49-618c-4011-8600-54bf191dea63",
+    "tracks": [
+      {
+        "position": 1,
+        "title": "NOT CUTE ANYMORE",
+        "duration_ms": 131998,
+        "mbid": "ecc99dd9-1c55-4e21-ac02-c429179d8317"
+      },
+      {
+        "position": 2,
+        "title": "NOT ME",
+        "duration_ms": 154313,
+        "mbid": "c08565da-36c6-46ba-884f-f24571973297"
+      }
+    ],
+    "type": "Single",
+    "secondary_types": []
   }
 ]

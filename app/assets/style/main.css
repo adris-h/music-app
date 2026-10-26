@@ -19,6 +19,10 @@ body{
 
 }
 
+:root{
+    font-size: 16px;
+}
+
 h1{
     font-weight: 700;
     /*font-family: "marigny", sans-serif;*/
@@ -32,26 +36,48 @@ h1{
 
 @theme {
     --color-template: #1C1C1C;
+    --color-background: #0E0E0E;
     --color-primary: #FF003C;
     --color-nav-primary: #6E6E6E;
     --color-nav-selected: #E8E6E5;
-    --font-primary: "brillante-vf",sans-serif;
+    --font-primary: "sets-grotesk-l",sans-serif;
+}
+
+@font-face {
+    font-family: "sets-grotesk-l";
+    font-weight: 100;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Brillante';
     src: url('../fonts/brillante.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-variation-settings: 'wdth' 125, 'wght' 300;
 }
+
 
 
 .link{
     font-variation-settings: 'wdth' 125, 'wght' 300;
-    @apply hover:opacity-75 text-nav-primary px-3 py-1 rounded-md active:scale-90 duration-200 font-primary ;
+    @apply hover:opacity-75 text-nav-primary py-1 rounded-md active:scale-90 duration-200 font-primary text-[16px] ;
 }
 
 .link.active{
     font-variation-settings: 'wdth' 125, 'wght' 400;
     @apply text-nav-selected px-3 py-1 rounded-md font-primary;
+}
+
+.animate-pulse{
+    animation: animate-pulse 1s;
+    background: white;
+}
+
+@keyframes animate-pulse {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }

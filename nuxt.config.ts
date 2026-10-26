@@ -24,5 +24,6 @@ export default defineNuxtConfig({
       pathPrefix: true
     }
   ],
-  modules: []
+  modules: ['@vueuse/nuxt'],
+
 })

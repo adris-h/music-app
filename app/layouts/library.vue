@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row items-center justify-center w-full h-full text-white p-0">
+  <div class="flex flex-row items-center justify-center w-full h-full text-white p-0 m-0">
     <LibraryNavBar />
     <div class="w-full h-full flex flex-col items-center justify-center ">
       <NavBar />
